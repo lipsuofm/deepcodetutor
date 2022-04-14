@@ -12,7 +12,11 @@ public class EvenOdd {
 			
 		}
 		else{
-		    System.out.println(num + " is greater than 10");
+		    if (num%2==0) {
+				System.out.println(num + " is even number greater than 10");
+			} else {
+				System.out.println(num + " is odd number greater than 10");
+			}
 		}
 		
 
